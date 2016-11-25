@@ -25,6 +25,7 @@
 		F7D651161DE8320F0070EEE5 /* SampleSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = F7D651131DE8320F0070EEE5 /* SampleSuccess.json */; };
 		F7D651191DE8333D0070EEE5 /* VEAAPIResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D651181DE8333D0070EEE5 /* VEAAPIResult.m */; };
 		F7D6511C1DE8336C0070EEE5 /* VEAUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D6511B1DE8336C0070EEE5 /* VEAUser.m */; };
+		F7D6511F1DE8387D0070EEE5 /* VEAGAHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D6511E1DE8387D0070EEE5 /* VEAGAHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,8 @@
 		F7D651181DE8333D0070EEE5 /* VEAAPIResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VEAAPIResult.m; path = Classes/Models/VEAAPIResult.m; sourceTree = "<group>"; };
 		F7D6511A1DE8336C0070EEE5 /* VEAUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VEAUser.h; path = Classes/Models/VEAUser.h; sourceTree = "<group>"; };
 		F7D6511B1DE8336C0070EEE5 /* VEAUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VEAUser.m; path = Classes/Models/VEAUser.m; sourceTree = "<group>"; };
+		F7D6511D1DE8387D0070EEE5 /* VEAGAHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VEAGAHelper.h; path = Classes/Helpers/VEAGAHelper.h; sourceTree = "<group>"; };
+		F7D6511E1DE8387D0070EEE5 /* VEAGAHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VEAGAHelper.m; path = Classes/Helpers/VEAGAHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +193,8 @@
 				F7D650FF1DE82B6B0070EEE5 /* VEAUtils.m */,
 				F7D651061DE82C740070EEE5 /* VEAAPIHelper.h */,
 				F7D651071DE82C740070EEE5 /* VEAAPIHelper.m */,
+				F7D6511D1DE8387D0070EEE5 /* VEAGAHelper.h */,
+				F7D6511E1DE8387D0070EEE5 /* VEAGAHelper.m */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -388,6 +393,7 @@
 				F7D6511C1DE8336C0070EEE5 /* VEAUser.m in Sources */,
 				F7196E7D1DE6A31A00EB2A99 /* AppDelegate.m in Sources */,
 				F7D651191DE8333D0070EEE5 /* VEAAPIResult.m in Sources */,
+				F7D6511F1DE8387D0070EEE5 /* VEAGAHelper.m in Sources */,
 				F7196E5E1DE6A26B00EB2A99 /* main.m in Sources */,
 				F7D650FA1DE82AC90070EEE5 /* VEAConstants.m in Sources */,
 				F7D650F71DE823680070EEE5 /* VEALoginViewController.m in Sources */,
