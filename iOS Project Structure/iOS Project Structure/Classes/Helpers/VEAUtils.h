@@ -62,6 +62,7 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 @interface VEAUtils : NSObject
 
 // Validations
-+ (id)showEmptyIfNull:(id)object;
++(id)showEmptyIfNull:(id)object;
++(BOOL)isEmailValid:(NSString *)emailParam;
 
 @end
