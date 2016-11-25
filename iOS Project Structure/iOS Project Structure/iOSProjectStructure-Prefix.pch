@@ -1,0 +1,12 @@
+//
+//  iOSProjectStructure-PrefixHeader.pch
+//  iOS Project Structure
+//
+//  Created by Vea Novenario on 25/11/2016.
+//  Copyright © 2016 Vea Novenario. All rights reserved.
+//
+
+#ifndef iOSProjectStructure_PrefixHeader_pch
+#define iOSProjectStructure_PrefixHeader_pch
+
+#endif
