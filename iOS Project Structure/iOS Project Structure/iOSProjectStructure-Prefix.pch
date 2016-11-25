@@ -9,4 +9,11 @@
 #ifndef iOSProjectStructure_PrefixHeader_pch
 #define iOSProjectStructure_PrefixHeader_pch
 
+#import "VEAConstants.h"
+#import "VEAUtils.h"
+#import "VEAGlobalVariables.h"
+#import "VEAAPIHelper.h"
+#import "VEABaseViewController.h"
+#import "SVProgressHUD.h"
+
 #endif

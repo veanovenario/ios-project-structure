@@ -1,5 +1,5 @@
 //
-//  VEALoginViewController.h
+//  VEABaseViewController.h
 //  iOS Project Structure
 //
 //  Created by Vea Novenario on 25/11/2016.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VEALoginViewController : VEABaseViewController
+@interface VEABaseViewController : UIViewController{
+    VEAAPIHelper *apiConnection;
+    VEAGlobalVariables *globalVariables;
+}
 
 @end

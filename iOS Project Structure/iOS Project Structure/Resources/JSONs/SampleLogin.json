@@ -1,0 +1,10 @@
+{
+    "status": 1,
+    "message": "success",
+    "data": {
+        "user_id": 101,
+        "name": "John Smith",
+        "email": "johnsmith@gmail.com",
+        "country_code": "SG"
+    }
+}
