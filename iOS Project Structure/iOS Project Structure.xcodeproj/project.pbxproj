@@ -13,6 +13,8 @@
 		F7196E691DE6A26B00EB2A99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7196E681DE6A26B00EB2A99 /* Assets.xcassets */; };
 		F7196E6C1DE6A26B00EB2A99 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7196E6A1DE6A26B00EB2A99 /* Splash.storyboard */; };
 		F7196E7D1DE6A31A00EB2A99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7196E7C1DE6A31A00EB2A99 /* AppDelegate.m */; };
+		F77A83EB1DEC1E18003E2DA0 /* RLMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F77A83EA1DEC1E18003E2DA0 /* RLMUser.m */; };
+		F77A83EE1DEC1F1A003E2DA0 /* VEADBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F77A83ED1DEC1F1A003E2DA0 /* VEADBHelper.m */; };
 		F7D650F71DE823680070EEE5 /* VEALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D650F61DE823680070EEE5 /* VEALoginViewController.m */; };
 		F7D650FA1DE82AC90070EEE5 /* VEAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D650F91DE82AC90070EEE5 /* VEAConstants.m */; };
 		F7D650FD1DE82B0A0070EEE5 /* VEAGlobalVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D650FC1DE82B0A0070EEE5 /* VEAGlobalVariables.m */; };
@@ -40,6 +42,10 @@
 		F7196E6D1DE6A26B00EB2A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7196E7B1DE6A31A00EB2A99 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		F7196E7C1DE6A31A00EB2A99 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		F77A83E91DEC1E18003E2DA0 /* RLMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RLMUser.h; path = Classes/Models/Database/RLMUser.h; sourceTree = "<group>"; };
+		F77A83EA1DEC1E18003E2DA0 /* RLMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RLMUser.m; path = Classes/Models/Database/RLMUser.m; sourceTree = "<group>"; };
+		F77A83EC1DEC1F1A003E2DA0 /* VEADBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VEADBHelper.h; path = Classes/Helpers/VEADBHelper.h; sourceTree = "<group>"; };
+		F77A83ED1DEC1F1A003E2DA0 /* VEADBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VEADBHelper.m; path = Classes/Helpers/VEADBHelper.m; sourceTree = "<group>"; };
 		F7D650F41DE822D50070EEE5 /* iOSProjectStructure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSProjectStructure-Prefix.pch"; sourceTree = "<group>"; };
 		F7D650F51DE823680070EEE5 /* VEALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VEALoginViewController.h; path = Classes/Controllers/VEALoginViewController.h; sourceTree = "<group>"; };
 		F7D650F61DE823680070EEE5 /* VEALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VEALoginViewController.m; path = Classes/Controllers/VEALoginViewController.m; sourceTree = "<group>"; };
@@ -174,6 +180,7 @@
 		F7196E771DE6A29900EB2A99 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F77A83E51DEC1CF9003E2DA0 /* Database */,
 				F7D651171DE8333D0070EEE5 /* VEAAPIResult.h */,
 				F7D651181DE8333D0070EEE5 /* VEAAPIResult.m */,
 				F7D6511A1DE8336C0070EEE5 /* VEAUser.h */,
@@ -193,6 +200,8 @@
 				F7D650FF1DE82B6B0070EEE5 /* VEAUtils.m */,
 				F7D651061DE82C740070EEE5 /* VEAAPIHelper.h */,
 				F7D651071DE82C740070EEE5 /* VEAAPIHelper.m */,
+				F77A83EC1DEC1F1A003E2DA0 /* VEADBHelper.h */,
+				F77A83ED1DEC1F1A003E2DA0 /* VEADBHelper.m */,
 				F7D6511D1DE8387D0070EEE5 /* VEAGAHelper.h */,
 				F7D6511E1DE8387D0070EEE5 /* VEAGAHelper.m */,
 			);
@@ -241,6 +250,15 @@
 				F7D651121DE8320F0070EEE5 /* SampleLogin.json */,
 			);
 			name = JSONs;
+			sourceTree = "<group>";
+		};
+		F77A83E51DEC1CF9003E2DA0 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F77A83E91DEC1E18003E2DA0 /* RLMUser.h */,
+				F77A83EA1DEC1E18003E2DA0 /* RLMUser.m */,
+			);
+			name = Database;
 			sourceTree = "<group>";
 		};
 		F7D651011DE82BD30070EEE5 /* Login */ = {
@@ -391,6 +409,8 @@
 			files = (
 				F7D651001DE82B6B0070EEE5 /* VEAUtils.m in Sources */,
 				F7D6511C1DE8336C0070EEE5 /* VEAUser.m in Sources */,
+				F77A83EE1DEC1F1A003E2DA0 /* VEADBHelper.m in Sources */,
+				F77A83EB1DEC1E18003E2DA0 /* RLMUser.m in Sources */,
 				F7196E7D1DE6A31A00EB2A99 /* AppDelegate.m in Sources */,
 				F7D651191DE8333D0070EEE5 /* VEAAPIResult.m in Sources */,
 				F7D6511F1DE8387D0070EEE5 /* VEAGAHelper.m in Sources */,

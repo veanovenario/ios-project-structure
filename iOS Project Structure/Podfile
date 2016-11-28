@@ -1,5 +1,5 @@
 # Uncomment this line to define a global platform for your project
-# platform :ios, ‘8.0’
+# platform :ios, '8.0'
 
 target 'iOS Project Structure' do
     pod "LoremIpsum", "~> 1.0.0"
@@ -8,6 +8,7 @@ target 'iOS Project Structure' do
     pod "Crashlytics"
     pod "AFNetworking"
     pod "JSONModel"
+    pod "Realm"
     pod "SDWebImage"
     pod "SVProgressHUD"
 end

@@ -13,6 +13,7 @@
 #import "VEAUtils.h"
 #import "VEAGlobalVariables.h"
 #import "VEAAPIHelper.h"
+#import "VEADBHelper.h"
 #import "VEABaseViewController.h"
 #import "SVProgressHUD.h"
 

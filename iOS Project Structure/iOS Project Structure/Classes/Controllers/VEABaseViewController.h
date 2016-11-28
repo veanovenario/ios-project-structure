@@ -11,6 +11,7 @@
 @interface VEABaseViewController : UIViewController{
     VEAAPIHelper *apiConnection;
     VEAGlobalVariables *globalVariables;
+    VEADBHelper *dbHelper;
 }
 
 @end

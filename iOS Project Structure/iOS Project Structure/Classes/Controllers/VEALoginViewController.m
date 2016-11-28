@@ -34,7 +34,9 @@
             
             // Save user to the database
             VEAUser *userObj = [[VEAUser alloc] initWithDictionary:resultObj.resultDict error:nil];
-            
+            [dbHelper insertOrUpdateUserWithUser:userObj];
+            [dbHelper getUsers];
+
             DLog(@"User: %@",userObj);
             
         }else{

@@ -20,6 +20,7 @@
     // Init
     apiConnection = [[VEAAPIHelper alloc] init];
     globalVariables = [VEAGlobalVariables sharedInstance];
+    dbHelper = [VEADBHelper instance];
 }
 
 - (void)didReceiveMemoryWarning {
