@@ -14,7 +14,7 @@
 
 // API
 @property (nonatomic, readwrite) BOOL isSuccess;
-@property (nonatomic, retain) NSString *message;
-@property (nonatomic, retain) NSDictionary *resultDict;
+@property (nonatomic, strong) NSString *message;
+@property (nonatomic, strong) NSDictionary *resultDict;
 
 @end

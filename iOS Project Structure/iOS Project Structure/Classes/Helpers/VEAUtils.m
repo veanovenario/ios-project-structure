@@ -40,4 +40,22 @@
     return [test1 evaluateWithObject:emailParam] && [test2 evaluateWithObject:emailParam];
 }
 
+#pragma mark - User Interface - View Layers
+
++(UIButton *)uiButton:(UIButton *)buttonParam{
+    [buttonParam layoutIfNeeded];
+    buttonParam.layer.masksToBounds = YES;
+    buttonParam.layer.cornerRadius = 5;
+    return buttonParam;
+}
+
++(UIButton *)uiButton:(UIButton *)buttonParam withBorderColor:(CGColorRef)colorParam{
+    [buttonParam layoutIfNeeded];
+    buttonParam.layer.masksToBounds = YES;
+    buttonParam.layer.cornerRadius = 5;
+    buttonParam.layer.borderWidth= 1.0f;
+    buttonParam.layer.borderColor = colorParam;
+    return buttonParam;
+}
+
 @end

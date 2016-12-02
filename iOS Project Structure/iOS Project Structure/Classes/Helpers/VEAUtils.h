@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 // Debug Logs
 #define DLog(fmt, ...) if (DEBUG) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
@@ -64,5 +65,9 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 // Validations
 +(id)showEmptyIfNull:(id)object;
 +(BOOL)isEmailValid:(NSString *)emailParam;
+
+// User Interface - View Layers
++(UIButton *)uiButton:(UIButton *)buttonParam;
++(UIButton *)uiButton:(UIButton *)buttonParam withBorderColor:(CGColorRef)colorParam;
 
 @end

@@ -12,12 +12,17 @@
 
 @interface VEALoginViewController ()
 
+@property (nonatomic, weak) IBOutlet UIButton *loginButton;
+
 @end
 
 @implementation VEALoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // Button UI
+    self.loginButton = [VEAUtils uiButton:self.loginButton];
 }
 
 #pragma mark - APIs
