@@ -5,7 +5,7 @@ Following a structure in XCode, when initially creating a project, helps in easi
 ## Steps
 
 • Add gitignore  
-• Organize project folder structure 
+• Organize project folder structure  
 • Add separate storyboards for each module  
 • Change version to 1.0.0  
 • Change *Deployment Target* to the minimum in your current XCode  
