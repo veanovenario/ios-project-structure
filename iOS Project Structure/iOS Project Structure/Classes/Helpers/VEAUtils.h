@@ -39,8 +39,8 @@
 // Device Type
 #define isIPhone4OrLess                         (isIPhone && kScreenMaxLength < 568.0)
 #define isIPhone5                               (isIPhone && kScreenMaxLength == 568.0)
-#define isIPhone6                               (isIPhone && kScreenMaxLength == 667.0)
-#define isIPhone6P                              (isIPhone && kScreenMaxLength == 736.0)
+#define isIPhone6Or7                            (isIPhone && kScreenMaxLength == 667.0)
+#define isIPhone6POr7P                          (isIPhone && kScreenMaxLength == 736.0)
 #define isIPadPro                               (isIPad && kScreenMaxLength == 1366)
 
 // Screen Resolution
