@@ -15,6 +15,7 @@
 
 +(VEADBHelper *)instance;
 
+// Users
 -(RLMResults *)getUsers;
 -(RLMResults *)getUserWithUserId:(int)userId;
 -(void)insertOrUpdateUserWithUser:(VEAUser *)userObj;
