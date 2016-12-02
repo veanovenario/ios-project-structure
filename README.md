@@ -18,7 +18,7 @@ Following a structure in XCode, when initially creating a project, helps in easi
 • Add Constants.h and GlobalVariables.h  
 • Add Utils.h with Dlog (Processor Macros by cocoapods)  
 • Add APIHelper.h and models for storing JSON data  
-• Add *Realm* and DBHelper.h  
+• Add DBHelper.h  
 • Add a BaseViewController and initial controllers  
 • Add *Google Analytics* for tracking user and screens  
 • Add *Crashlytics* and *Fabric* for crash reports and ditribution of builds  
