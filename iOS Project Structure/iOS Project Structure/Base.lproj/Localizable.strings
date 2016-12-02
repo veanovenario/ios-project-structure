@@ -5,3 +5,13 @@
   Created by Vea Novenario on 25/11/2016.
   Copyright © 2016 Vea Novenario. All rights reserved.
 */
+
+// Alert Titles
+"Error" = "Error";
+
+// Alert Buttons
+"OK" = "OK";
+"Cancel" = "Cancel";
+
+// Alert Messages
+"Alert_ServerError" = "There was an error connecting to the server. Please try again later.";
