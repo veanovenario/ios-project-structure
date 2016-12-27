@@ -19,6 +19,12 @@
 #define kStoryboardSplash                               @"Splash"
 #define kStoryboardLogin                                @"Login"
 
+// Hex Colors
+/* Use this format if the app uses hex colors.
+ * To be used together with UIColorFromRGB(rgbValue) method.
+#define kHexColorFBBlue                                 0x084f83
+*/
+
 @interface VEAConstants : NSObject
 
 @end

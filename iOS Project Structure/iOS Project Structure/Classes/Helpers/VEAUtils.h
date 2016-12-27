@@ -60,6 +60,11 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #define deg2rad(x) x * M_PI / 180
 #define randomf(minX,maxX) ((float)(arc4random() % (maxX - minX + 1)) + (float)minX)
 
+// Custom Fonts
+/* Use this format if the app uses custom fonts
+#define kIKFont(x)                              [UIFont fontWithName:@"FredokaOne-Regular" size:x]
+*/
+
 @interface VEAUtils : NSObject
 
 // Validations
